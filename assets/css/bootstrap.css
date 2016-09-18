@@ -179,11 +179,15 @@ optgroup {
 table {
   border-spacing: 0;
   border-collapse: collapse;
+  border: solid;
+  border-color: #ccc;
+  width: 100%;
+  table-layout: auto;
 }
-td,
+/*td,
 th {
   padding: 0;
-}
+}*/
 @media print {
   * {
     color: #000 !important;
@@ -1402,9 +1406,9 @@ table {
   max-width: 100%;
   background-color: transparent;
 }
-th {
+/*th {
   text-align: left;
-}
+}*/
 .table {
   width: 100%;
   margin-bottom: 20px;
